@@ -1,0 +1,226 @@
+.circle {
+    width: 44px;
+    height: 44px;
+    background-color: #D8D8D8;
+    border-radius: 22px;
+    margin-left: 23px;
+}
+
+.logoText {
+    width: 100%;
+    font-size: 20px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 28px;
+}
+
+.mainTitle {
+    height: 90px;
+    font-size: 64px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 90px;
+}
+
+.mainTitleComment {
+    height: 101px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+
+.businessIntroTitle {
+    width: 144px;
+    height: 50px;
+    font-size: 36px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 50px;
+}
+
+.businessIntroSubtitle {
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #969DA3;
+    line-height: 20px;
+}
+
+.caption {
+    width: 1207px;
+    height: 152px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #969DA3;
+    line-height: 22px;
+}
+
+.mainText {
+    width: 883px;
+    height: 397px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #31353A;
+    line-height: 22px;
+    text-indent: 2em
+}
+
+.tradingVarietyTitle {
+    width: 178px;
+    height: 50px;
+    font-size: 36px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+.tradingVarietysubtitle {
+    width: 103px;
+    height: 34px;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #FFFFFF;
+    line-height: 17px;
+}
+
+.varietyName {
+    width: 120px;
+    height: 33px;
+    font-size: 24px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 33px;
+    justify-content: center;
+}
+
+div.square h1 {
+    width: 144px;
+    height: 33px;
+    font-size: 24px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 33px;
+}
+
+div.square h2 {
+    width: 80px;
+    height: 28px;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+div.square p {
+    width: 200px;
+    height: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #969DA3;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.rectTextContainer {
+    width: 333px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 6px 0px rgba(39, 134, 255, 0.43);
+    border-radius: 4px;
+}
+
+.pageNumContainer {
+    position: absolute;
+    right: 32px;
+    bottom: 0px;
+    width: 40px;
+    height: 40px;
+    background: #2786FF;
+    border-radius: 0px 0px 4px 0px;
+}
+
+.pageNum {
+    width: 7px;
+    height: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 22px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -11px;
+    margin-left: -3px;
+}
+
+.sysArchObj4Short {
+    margin-left: 20px;
+    width: 128px;
+    height: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #000000;
+    line-height: 22px;
+}
+
+.sysArchObj4Long {
+    width: 128px;
+    height: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #000000;
+    line-height: 22px;
+}
+
+.sysArchObj5 {
+    width: 112px;
+    height: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #000000;
+    line-height: 22px;
+    text-align: center;
+}
+
+.col-lg-2dot4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 1200px) {
+    .col-lg-2dot4 {
+        float: left;
+    }
+    .col-lg-2dot4 {
+        width: 20%;
+    }
+    .col-lg-pull-2dot4 {
+        right: 20%;
+    }
+    .col-lg-push-2dot4 {
+        left: 20%;
+    }
+    .col-lg-offset-2dot4 {
+        margin-left: 20%;
+    }
+}
